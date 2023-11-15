@@ -1,0 +1,20 @@
+@mixin media-query-cards{
+    @media (max-width: 1020px){
+        @content
+    }
+};
+
+.container{
+    margin: 35px;
+    @include media-query-cards{
+        columns: 1;
+        padding: 0%;
+    }
+    .card{
+        background-color: #fff;
+        margin: 0 30px 35px 30px;
+        p{
+            color: black;
+        }
+    }
+}

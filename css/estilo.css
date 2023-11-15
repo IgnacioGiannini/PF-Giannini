@@ -1,0 +1,270 @@
+button.navbar-toggler {
+  color: aliceblue;
+}
+
+nav.navbar.navbar-expand-lg.bg-body-tertiary {
+  display: flex;
+  padding: 0%;
+  align-items: stretch;
+}
+
+.container-fluid {
+  background-color: #003051;
+  position: fixed;
+  z-index: 10000;
+  box-shadow: 1px 2px 20px black;
+}
+.container-fluid .logo {
+  width: 260px;
+  height: 80px;
+  padding: 0px;
+}
+.container-fluid div ul li a {
+  color: aliceblue;
+}
+.container-fluid div ul li a:hover {
+  color: rgb(64, 148, 221);
+}
+
+.letra, main .presentacion .autor, main .presentacion .frase {
+  text-shadow: 1px 1px 2px black;
+  font-size: large;
+  text-align: center;
+}
+
+main .presentacion .color {
+  z-index: -999;
+  height: 600px;
+  width: 100%;
+  opacity: 0.8;
+  position: absolute;
+}
+main .presentacion .container-pumas {
+  height: 100px;
+  padding-top: 100px;
+  text-align: center;
+}
+main .presentacion .container-pumas img {
+  width: 300px;
+}
+main .presentacion .frase {
+  color: aliceblue;
+  padding-top: 170px;
+}
+main .presentacion .autor {
+  color: aliceblue;
+  height: 300px;
+}
+main .presentacion .ImagenPresentacion {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 600px;
+  z-index: -1000;
+}
+main .sobreLosPumas .textos {
+  columns: 2;
+  column-gap: 50px;
+  font-size: 20px;
+  font-weight: 400;
+}
+@media (max-width: 1175px) {
+  main .sobreLosPumas .textos {
+    columns: 1;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+main .sobreLosPumas h1 {
+  color: #003051;
+  text-align: center;
+}
+main .tecnicos h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #003051;
+  text-align: center;
+}
+main .tecnicos #carouselExampleCaptions {
+  margin: auto;
+  width: 700px;
+  height: 400px;
+}
+@media (max-width: 700px) {
+  main .tecnicos #carouselExampleCaptions {
+    width: 300px;
+    height: auto;
+  }
+}
+main .tecnicos #carouselExampleCaptions h5 {
+  color: aliceblue;
+  text-shadow: 1px 1px 2px black;
+}
+main .tecnicos #carouselExampleCaptions p {
+  color: aliceblue;
+  text-shadow: 1px 1px 2px black;
+}
+main .equipos {
+  background-color: #003051;
+}
+main .equipos h3 {
+  font-size: 1cm;
+  color: aliceblue;
+  text-align: center;
+  margin-top: 30px;
+}
+main .equipos div {
+  height: 400px;
+}
+@media (max-width: 700px) {
+  main .equipos div {
+    height: 200px;
+  }
+}
+main .equipos div img {
+  margin: 20px;
+  width: 250px;
+}
+@media (max-width: 1175px) {
+  main .equipos div img {
+    width: 150px;
+  }
+}
+@media (max-width: 700px) {
+  main .equipos div img {
+    width: 50px;
+  }
+}
+
+.footer {
+  margin: 0px !important;
+  width: 100%;
+  height: 100px;
+  background-color: #2e332e;
+}
+.footer .text {
+  color: aliceblue;
+}
+
+.container {
+  margin: 35px;
+}
+@media (max-width: 1020px) {
+  .container {
+    columns: 1;
+    padding: 0%;
+  }
+}
+.container .card {
+  background-color: #fff;
+  margin: 0 30px 35px 30px;
+}
+.container .card p {
+  color: black;
+}
+
+.Historia {
+  text-align: center;
+}
+.Historia div h2 {
+  margin-top: 70px;
+}
+
+.contacto {
+  background-color: #282828;
+}
+.contacto h3 {
+  margin-bottom: 50px;
+  color: aliceblue;
+}
+.contacto div {
+  display: flex;
+  flex-direction: row;
+}
+.contacto div form {
+  width: 500px;
+}
+.contacto div form input {
+  width: 500px;
+}
+.contacto div form textarea {
+  max-width: 500px;
+  max-height: 300px;
+}
+.contacto div form .text-center {
+  justify-content: left;
+  width: 50px;
+}
+.contacto div .map {
+  margin-left: 300px;
+  width: 500px;
+  height: 500px;
+}
+
+.tituloSponsors {
+  margin: 20px 10px;
+}
+
+.textoSponsors {
+  columns: 2;
+  width: 100%;
+}
+@media (max-width: 1070px) {
+  .textoSponsors {
+    columns: 1;
+    text-align: center;
+  }
+}
+.textoSponsors p {
+  margin: 0 10px;
+  font-size: 20px;
+  height: 300px;
+  margin-bottom: 30px;
+}
+
+.sponsorsContainer {
+  columns: 3;
+}
+@media (max-width: 500px) {
+  .sponsorsContainer {
+    columns: 2;
+  }
+}
+.sponsorsContainer .sponsors {
+  width: 300px;
+  height: 200px;
+  margin: 30px;
+}
+@media (max-width: 1070px) {
+  .sponsorsContainer .sponsors {
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+  }
+}
+
+.imagen {
+  background-image: url(../multimedia/los_pumas_abrazo.webp);
+  background-repeat: no-repeat;
+  background-position: 0.1px;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  z-index: -1000;
+}
+
+.tienda {
+  z-index: -100;
+  height: 300px;
+  color: aliceblue;
+}
+
+.imagen_fondo {
+  background-image: url(../multimedia/color.png);
+  height: 300px;
+  width: 100%;
+  opacity: 0.8;
+  position: absolute;
+}
+
+/*# sourceMappingURL=estilo.css.map */
